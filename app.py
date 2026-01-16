@@ -103,12 +103,18 @@ if uploaded_file is not None:
     X = X.reindex(columns=feature_columns, fill_value=0)
 
 
-    # Scaling
-    X_scaled = scaler.transform(X)
+   # Models that REQUIRE scaling
+    scale_models = ["Logistic Regression", "KNN", "Naive Bayes"]
 
-    # Prediction
-    y_pred = model.predict(X_scaled)
-    y_prob = model.predict_proba(X_scaled)[:, 1]
+    if model_choice in scale_models:
+        X_input = scaler.transform(X)
+    else:
+        X_input = X.values  # raw, unscaled data
+
+    #Predict
+    y_pred = model.predict(X_input)
+    y_prob = model.predict_proba(X_input)[:, 1]
+
 
     # Metrics
     st.subheader("📊 Model Performance Metrics")
