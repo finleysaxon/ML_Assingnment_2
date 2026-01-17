@@ -22,7 +22,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("✈️ Airline Passenger Satisfaction Prediction")
+st.title("Airline Passenger Satisfaction Prediction")
 st.write("Binary Classification using Multiple ML Models")
 
 # -------------------------------
@@ -117,7 +117,7 @@ if uploaded_file is not None:
 
 
     # Metrics
-    st.subheader("📊 Model Performance Metrics")
+    st.subheader("Model Performance Metrics")
 
     col1, col2, col3 = st.columns(3)
     col1.metric("Accuracy", round(accuracy_score(y_true, y_pred), 4))
@@ -130,7 +130,7 @@ if uploaded_file is not None:
     col6.metric("MCC", round(matthews_corrcoef(y_true, y_pred), 4))
 
     # Confusion Matrix
-    st.subheader("🔍 Confusion Matrix")
+    st.subheader("Confusion Matrix")
     cm = confusion_matrix(y_true, y_pred)
 
     fig, ax = plt.subplots()
@@ -140,4 +140,4 @@ if uploaded_file is not None:
     st.pyplot(fig)
 
 else:
-    st.info("👈 Upload a CSV file from the sidebar to begin.")
+    st.info(" Upload a CSV file from the sidebar to begin.")
