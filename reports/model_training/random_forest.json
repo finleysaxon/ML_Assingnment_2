@@ -1,0 +1,17 @@
+{
+  "model_name": "Random Forest",
+  "timestamp": "2026-02-15 02:38:43",
+  "hyperparameters": {
+    "n_estimators": 100,
+    "random_state": 42
+  },
+  "uses_scaled_data": false,
+  "metrics": {
+    "Accuracy": 0.9617309539457055,
+    "AUC Score": 0.9936404298006833,
+    "Precision": 0.9729795225978433,
+    "Recall": 0.9376459598318543,
+    "F1 Score": 0.9549860260450734,
+    "MCC Score": 0.9222007552373926
+  }
+}

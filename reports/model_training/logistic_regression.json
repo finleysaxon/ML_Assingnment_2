@@ -1,0 +1,16 @@
+{
+  "model_name": "Logistic Regression",
+  "timestamp": "2026-02-15 02:38:31",
+  "hyperparameters": {
+    "max_iter": 1000
+  },
+  "uses_scaled_data": true,
+  "metrics": {
+    "Accuracy": 0.878064809665841,
+    "AUC Score": 0.929606705175807,
+    "Precision": 0.8730293475624545,
+    "Recall": 0.8406118636151331,
+    "F1 Score": 0.8565139797739441,
+    "MCC Score": 0.7509734524154915
+  }
+}

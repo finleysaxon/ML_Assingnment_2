@@ -1,0 +1,38 @@
+{
+  "training_date": "2026-02-15 02:38:43",
+  "dataset": "dataset/test.csv",
+  "models_trained": [
+    "logistic_regression.pkl",
+    "decision_tree.pkl",
+    "knn.pkl",
+    "naive_bayes.pkl",
+    "random_forest.pkl",
+    "xgboost.pkl"
+  ],
+  "total_models": 6,
+  "best_model": "XGBoost",
+  "best_f1_score": 0.9553,
+  "pkl_files_saved": [
+    "scaler.pkl",
+    "feature_columns.pkl",
+    "logistic_regression.pkl",
+    "decision_tree.pkl",
+    "knn.pkl",
+    "naive_bayes.pkl",
+    "random_forest.pkl",
+    "xgboost.pkl"
+  ],
+  "json_files_generated": [
+    "data_preparation.json",
+    "logistic_regression.json",
+    "decision_tree.json",
+    "knn.json",
+    "naive_bayes.json",
+    "random_forest.json",
+    "xgboost.json",
+    "model_comparison.json",
+    "training_summary.json"
+  ],
+  "total_json_files": 9,
+  "total_pkl_files": 8
+}

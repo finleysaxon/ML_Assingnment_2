@@ -1,0 +1,14 @@
+{
+  "model_name": "Naive Bayes",
+  "timestamp": "2026-02-15 02:38:35",
+  "hyperparameters": {},
+  "uses_scaled_data": true,
+  "metrics": {
+    "Accuracy": 0.8625448662858298,
+    "AUC Score": 0.9213574203464524,
+    "Precision": 0.8583690987124464,
+    "Recall": 0.8173750583839328,
+    "F1 Score": 0.8373706561397213,
+    "MCC Score": 0.719109214069818
+  }
+}

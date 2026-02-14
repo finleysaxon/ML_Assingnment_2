@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-02-15 02:38:31",
+  "data_source": "Loaded from data_preprocessing.ipynb output (dataset/preprocessed/)",
+  "original_dataset": "dataset/test.csv",
+  "preprocessing_notebook": "data_preprocessing.ipynb",
+  "X_train_shape": [
+    79123,
+    23
+  ],
+  "X_test_shape": [
+    19781,
+    23
+  ],
+  "train_satisfaction_ratio": 0.433,
+  "test_satisfaction_ratio": 0.4329,
+  "feature_columns": [
+    "Age",
+    "Flight Distance",
+    "Inflight wifi service",
+    "Departure/Arrival time convenient",
+    "Ease of Online booking",
+    "Gate location",
+    "Food and drink",
+    "Online boarding",
+    "Seat comfort",
+    "Inflight entertainment",
+    "On-board service",
+    "Leg room service",
+    "Baggage handling",
+    "Checkin service",
+    "Inflight service",
+    "Cleanliness",
+    "Departure Delay in Minutes",
+    "Arrival Delay in Minutes",
+    "Gender_Male",
+    "Customer Type_disloyal Customer",
+    "Type of Travel_Personal Travel",
+    "Class_Eco",
+    "Class_Eco Plus"
+  ],
+  "total_features": 23
+}

@@ -1,0 +1,44 @@
+{
+  "encoding_method": "one_hot",
+  "drop_first": true,
+  "original_categorical_columns": [
+    "Gender",
+    "Customer Type",
+    "Type of Travel",
+    "Class"
+  ],
+  "new_encoded_columns": [
+    "Gender_Male",
+    "Customer Type_disloyal Customer",
+    "Type of Travel_Personal Travel",
+    "Class_Eco",
+    "Class_Eco Plus"
+  ],
+  "total_features_before": 22,
+  "total_features_after": 23,
+  "all_feature_columns_after_encoding": [
+    "Age",
+    "Flight Distance",
+    "Inflight wifi service",
+    "Departure/Arrival time convenient",
+    "Ease of Online booking",
+    "Gate location",
+    "Food and drink",
+    "Online boarding",
+    "Seat comfort",
+    "Inflight entertainment",
+    "On-board service",
+    "Leg room service",
+    "Baggage handling",
+    "Checkin service",
+    "Inflight service",
+    "Cleanliness",
+    "Departure Delay in Minutes",
+    "Arrival Delay in Minutes",
+    "Gender_Male",
+    "Customer Type_disloyal Customer",
+    "Type of Travel_Personal Travel",
+    "Class_Eco",
+    "Class_Eco Plus"
+  ]
+}

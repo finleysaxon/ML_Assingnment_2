@@ -1,0 +1,41 @@
+{
+  "preprocessing_date": "2026-02-15 02:31:39",
+  "dataset": "test.csv",
+  "total_steps": 9,
+  "steps": [
+    "1. Loaded dataset from dataset/test.csv",
+    "2. Assessed data quality (missing values, duplicates, dtypes)",
+    "3. Dropped unnecessary columns (id, Unnamed: 0)",
+    "4. Imputed missing values using median strategy",
+    "5. Encoded target variable (satisfaction: 0/1)",
+    "6. Separated features (X) and target (y)",
+    "7. One-hot encoded categorical features (Gender, Customer Type, Type of Travel, Class)",
+    "8. Split data into train/test sets (80/20, stratified)",
+    "9. Applied StandardScaler (fit on train, transform both)"
+  ],
+  "original_shape": [
+    98904,
+    25
+  ],
+  "final_train_shape": [
+    79123,
+    23
+  ],
+  "final_test_shape": [
+    19781,
+    23
+  ],
+  "total_json_files_generated": 10,
+  "json_files_list": [
+    "dataset_overview.json",
+    "data_quality_report.json",
+    "column_cleanup.json",
+    "missing_value_handling.json",
+    "target_encoding.json",
+    "feature_target_split.json",
+    "categorical_encoding.json",
+    "train_test_split.json",
+    "feature_scaling.json",
+    "preprocessing_summary.json"
+  ]
+}

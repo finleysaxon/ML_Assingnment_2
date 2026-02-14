@@ -1,0 +1,43 @@
+{
+  "missing_values": {
+    "Arrival Delay in Minutes": 299
+  },
+  "missing_percentages": {
+    "Arrival Delay in Minutes": 0.3023
+  },
+  "duplicate_rows": 0,
+  "total_records": 98904,
+  "data_completeness_percent": 99.9879,
+  "columns_with_missing": [
+    "Arrival Delay in Minutes"
+  ],
+  "numeric_columns": [
+    "Unnamed: 0",
+    "id",
+    "Age",
+    "Flight Distance",
+    "Inflight wifi service",
+    "Departure/Arrival time convenient",
+    "Ease of Online booking",
+    "Gate location",
+    "Food and drink",
+    "Online boarding",
+    "Seat comfort",
+    "Inflight entertainment",
+    "On-board service",
+    "Leg room service",
+    "Baggage handling",
+    "Checkin service",
+    "Inflight service",
+    "Cleanliness",
+    "Departure Delay in Minutes",
+    "Arrival Delay in Minutes"
+  ],
+  "categorical_columns": [
+    "Gender",
+    "Customer Type",
+    "Type of Travel",
+    "Class",
+    "satisfaction"
+  ]
+}

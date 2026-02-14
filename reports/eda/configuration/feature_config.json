@@ -1,0 +1,143 @@
+{
+  "preprocessing_config": {
+    "categorical_features": [
+      "Gender",
+      "Customer Type",
+      "Type of Travel",
+      "Class",
+      "satisfaction"
+    ],
+    "numerical_features": [
+      "Age",
+      "Flight Distance",
+      "Inflight wifi service",
+      "Departure/Arrival time convenient",
+      "Ease of Online booking",
+      "Gate location",
+      "Food and drink",
+      "Online boarding",
+      "Seat comfort",
+      "Inflight entertainment",
+      "On-board service",
+      "Leg room service",
+      "Baggage handling",
+      "Checkin service",
+      "Inflight service",
+      "Cleanliness",
+      "Departure Delay in Minutes",
+      "Arrival Delay in Minutes"
+    ],
+    "target_column": "satisfaction",
+    "features_to_drop": [
+      "Unnamed: 0",
+      "id"
+    ],
+    "outlier_handling": {
+      "method": "IQR",
+      "threshold_multiplier": 1.5,
+      "affected_features": [
+        "Age",
+        "Flight Distance",
+        "Inflight wifi service",
+        "Departure/Arrival time convenient",
+        "Ease of Online booking",
+        "Gate location",
+        "Food and drink",
+        "Online boarding",
+        "Seat comfort",
+        "Inflight entertainment",
+        "On-board service",
+        "Leg room service",
+        "Baggage handling",
+        "Checkin service",
+        "Inflight service",
+        "Cleanliness",
+        "Departure Delay in Minutes",
+        "Arrival Delay in Minutes"
+      ]
+    },
+    "feature_scaling": {
+      "method": "StandardScaler",
+      "apply_to": [
+        "Age",
+        "Flight Distance",
+        "Inflight wifi service",
+        "Departure/Arrival time convenient",
+        "Ease of Online booking",
+        "Gate location",
+        "Food and drink",
+        "Online boarding",
+        "Seat comfort",
+        "Inflight entertainment",
+        "On-board service",
+        "Leg room service",
+        "Baggage handling",
+        "Checkin service",
+        "Inflight service",
+        "Cleanliness",
+        "Departure Delay in Minutes",
+        "Arrival Delay in Minutes"
+      ]
+    },
+    "categorical_encoding": {
+      "one_hot": [
+        "Gender",
+        "Customer Type",
+        "Type of Travel",
+        "Class"
+      ],
+      "target_encoding": "satisfaction"
+    }
+  },
+  "feature_importance_ranking": {
+    "Online boarding": 0.5046976240069115,
+    "Inflight entertainment": 0.397714818792887,
+    "Seat comfort": 0.34995004188743023,
+    "On-board service": 0.32270562315844314,
+    "Leg room service": 0.31416239052595785,
+    "Cleanliness": 0.3050797668094171,
+    "Flight Distance": 0.29933832548372613,
+    "Inflight wifi service": 0.28508737000360596,
+    "Baggage handling": 0.247440102854115,
+    "Inflight service": 0.24494560417042296,
+    "Checkin service": 0.23647777109256204,
+    "Food and drink": 0.20975189025269028,
+    "Ease of Online booking": 0.17226344198399826,
+    "Age": 0.13745281173726998,
+    "id": 0.013868400795468179,
+    "Gate location": 0.0013556170080718784,
+    "Unnamed: 0": -0.005403950146202122,
+    "Departure/Arrival time convenient": -0.05066980021261855,
+    "Departure Delay in Minutes": -0.050874348696142324,
+    "Arrival Delay in Minutes": -0.05788276981574839
+  },
+  "features_by_category": {
+    "high_importance": {
+      "Online boarding": 0.5046976240069115,
+      "Inflight entertainment": 0.397714818792887,
+      "Seat comfort": 0.34995004188743023,
+      "On-board service": 0.32270562315844314,
+      "Leg room service": 0.31416239052595785,
+      "Cleanliness": 0.3050797668094171,
+      "Flight Distance": 0.29933832548372613,
+      "Inflight wifi service": 0.28508737000360596
+    },
+    "medium_importance": {
+      "Baggage handling": 0.247440102854115,
+      "Inflight service": 0.24494560417042296,
+      "Checkin service": 0.23647777109256204,
+      "Food and drink": 0.20975189025269028,
+      "Ease of Online booking": 0.17226344198399826,
+      "Age": 0.13745281173726998,
+      "id": 0.013868400795468179,
+      "Gate location": 0.0013556170080718784
+    },
+    "low_importance": {
+      "Arrival Delay in Minutes": -0.05788276981574839,
+      "Departure Delay in Minutes": -0.050874348696142324,
+      "Departure/Arrival time convenient": -0.05066980021261855,
+      "Unnamed: 0": -0.005403950146202122,
+      "Gate location": 0.0013556170080718784
+    }
+  }
+}

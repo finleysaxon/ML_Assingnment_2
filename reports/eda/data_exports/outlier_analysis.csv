@@ -1,0 +1,19 @@
+,Count,Percentage,Lower_Bound,Upper_Bound
+Age,0.0,0.0,-9.0,87.0
+Flight Distance,2161.0,2.18,-1581.0,3739.0
+Inflight wifi service,0.0,0.0,-1.0,7.0
+Departure/Arrival time convenient,0.0,0.0,-1.0,7.0
+Ease of Online booking,0.0,0.0,-1.0,7.0
+Gate location,0.0,0.0,-1.0,7.0
+Food and drink,0.0,0.0,-1.0,7.0
+Online boarding,0.0,0.0,-1.0,7.0
+Seat comfort,0.0,0.0,-2.5,9.5
+Inflight entertainment,0.0,0.0,-1.0,7.0
+On-board service,0.0,0.0,-1.0,7.0
+Leg room service,0.0,0.0,-1.0,7.0
+Baggage handling,0.0,0.0,0.0,8.0
+Checkin service,12245.0,12.38,1.5,5.5
+Inflight service,0.0,0.0,0.0,8.0
+Cleanliness,0.0,0.0,-1.0,7.0
+Departure Delay in Minutes,13842.0,14.0,-18.0,30.0
+Arrival Delay in Minutes,13287.0,13.43,-19.5,32.5

@@ -1,0 +1,16 @@
+{
+  "model_name": "Decision Tree",
+  "timestamp": "2026-02-15 02:38:31",
+  "hyperparameters": {
+    "random_state": 42
+  },
+  "uses_scaled_data": false,
+  "metrics": {
+    "Accuracy": 0.9448966179667357,
+    "AUC Score": 0.9438596560810043,
+    "Precision": 0.9365654205607477,
+    "Recall": 0.9361279775805699,
+    "F1 Score": 0.936346647979444,
+    "MCC Score": 0.887768423286471
+  }
+}

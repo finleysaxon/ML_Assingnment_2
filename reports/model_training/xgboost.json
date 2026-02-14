@@ -1,0 +1,17 @@
+{
+  "model_name": "XGBoost",
+  "timestamp": "2026-02-15 02:38:43",
+  "hyperparameters": {
+    "eval_metric": "logloss",
+    "random_state": 42
+  },
+  "uses_scaled_data": false,
+  "metrics": {
+    "Accuracy": 0.9618826146302007,
+    "AUC Score": 0.9947993901629846,
+    "Precision": 0.9703685858829197,
+    "Recall": 0.9406819243344232,
+    "F1 Score": 0.9552946756788806,
+    "MCC Score": 0.922425046828129
+  }
+}

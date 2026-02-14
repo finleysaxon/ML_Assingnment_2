@@ -1,0 +1,16 @@
+{
+  "target_column": "satisfaction",
+  "encoding_map": {
+    "neutral or dissatisfied": 0,
+    "satisfied": 1
+  },
+  "class_distribution_before": {
+    "neutral or dissatisfied": 56083,
+    "satisfied": 42821
+  },
+  "class_distribution_after": {
+    "0": 56083,
+    "1": 42821
+  },
+  "class_balance_ratio": 0.7635
+}

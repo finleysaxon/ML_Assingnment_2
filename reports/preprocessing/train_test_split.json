@@ -1,0 +1,21 @@
+{
+  "test_size": 0.2,
+  "random_state": 42,
+  "stratify": true,
+  "X_train_shape": [
+    79123,
+    23
+  ],
+  "X_test_shape": [
+    19781,
+    23
+  ],
+  "y_train_shape": [
+    79123
+  ],
+  "y_test_shape": [
+    19781
+  ],
+  "train_satisfaction_ratio": 0.433,
+  "test_satisfaction_ratio": 0.4329
+}

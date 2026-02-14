@@ -1,0 +1,16 @@
+{
+  "model_name": "K-Nearest Neighbors",
+  "timestamp": "2026-02-15 02:38:35",
+  "hyperparameters": {
+    "n_neighbors": 5
+  },
+  "uses_scaled_data": true,
+  "metrics": {
+    "Accuracy": 0.9271523178807947,
+    "AUC Score": 0.9685027401151011,
+    "Precision": 0.9500821433084797,
+    "Recall": 0.8778608127043438,
+    "F1 Score": 0.9125447593615342,
+    "MCC Score": 0.8522415627212896
+  }
+}

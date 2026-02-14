@@ -1,0 +1,16 @@
+{
+  "strategy": "median_imputation",
+  "data_leakage_prevention": "Median computed on TRAINING set only, applied to both train and test",
+  "columns_imputed": [
+    "Arrival Delay in Minutes"
+  ],
+  "imputation_values": {
+    "Arrival Delay in Minutes": 0.0
+  },
+  "missing_before": {
+    "Arrival Delay in Minutes": 299
+  },
+  "missing_after_train": 0,
+  "missing_after_test": 0,
+  "total_values_imputed": 299
+}
