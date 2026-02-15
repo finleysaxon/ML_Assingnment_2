@@ -97,7 +97,7 @@ streamlit run app.py
 
 ## Live App
 
-> [Streamlit App Link — to be added after deployment]
+> [[Streamlit App Link — (https://ml-assignment-airline-passenger-satisfaction.streamlit.app/)]]
 
 ## Technologies Used
 
