@@ -1,6 +1,6 @@
 {
   "dataset_name": "Airline Passenger Satisfaction",
-  "source_file": "dataset/test.csv",
+  "source_file": "dataset/test_original.csv",
   "total_records": 98904,
   "total_features": 25,
   "column_names": [

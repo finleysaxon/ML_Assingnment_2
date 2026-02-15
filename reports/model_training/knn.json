@@ -1,6 +1,6 @@
 {
   "model_name": "K-Nearest Neighbors",
-  "timestamp": "2026-02-15 02:38:35",
+  "timestamp": "2026-02-15 20:26:55",
   "hyperparameters": {
     "n_neighbors": 5
   },
@@ -12,5 +12,15 @@
     "Recall": 0.8778608127043438,
     "F1 Score": 0.9125447593615342,
     "MCC Score": 0.8522415627212896
-  }
+  },
+  "confusion_matrix": [
+    [
+      10822,
+      395
+    ],
+    [
+      1046,
+      7518
+    ]
+  ]
 }

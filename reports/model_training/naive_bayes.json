@@ -1,6 +1,6 @@
 {
   "model_name": "Naive Bayes",
-  "timestamp": "2026-02-15 02:38:35",
+  "timestamp": "2026-02-15 20:26:55",
   "hyperparameters": {},
   "uses_scaled_data": true,
   "metrics": {
@@ -10,5 +10,15 @@
     "Recall": 0.8173750583839328,
     "F1 Score": 0.8373706561397213,
     "MCC Score": 0.719109214069818
-  }
+  },
+  "confusion_matrix": [
+    [
+      10062,
+      1155
+    ],
+    [
+      1564,
+      7000
+    ]
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "model_name": "Logistic Regression",
-  "timestamp": "2026-02-15 02:38:31",
+  "timestamp": "2026-02-15 20:26:52",
   "hyperparameters": {
     "max_iter": 1000
   },
@@ -12,5 +12,15 @@
     "Recall": 0.8406118636151331,
     "F1 Score": 0.8565139797739441,
     "MCC Score": 0.7509734524154915
-  }
+  },
+  "confusion_matrix": [
+    [
+      10170,
+      1047
+    ],
+    [
+      1365,
+      7199
+    ]
+  ]
 }

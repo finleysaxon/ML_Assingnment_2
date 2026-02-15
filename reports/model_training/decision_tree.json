@@ -1,6 +1,6 @@
 {
   "model_name": "Decision Tree",
-  "timestamp": "2026-02-15 02:38:31",
+  "timestamp": "2026-02-15 20:26:53",
   "hyperparameters": {
     "random_state": 42
   },
@@ -12,5 +12,15 @@
     "Recall": 0.9361279775805699,
     "F1 Score": 0.936346647979444,
     "MCC Score": 0.887768423286471
-  }
+  },
+  "confusion_matrix": [
+    [
+      10674,
+      543
+    ],
+    [
+      547,
+      8017
+    ]
+  ]
 }

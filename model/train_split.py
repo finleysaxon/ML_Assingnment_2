@@ -2,9 +2,9 @@ import pandas as pd
 import os
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
-train_path = os.path.join(base_dir, 'datasetcopy', 'train.csv')
-viz_path = os.path.join(base_dir, 'datasetcopy', 'vis_dataset.csv')
-split_train_path = os.path.join(base_dir, 'datasetcopy', 'test.csv')
+train_path = os.path.join(base_dir, '..', 'dataset', 'train.csv')
+viz_path = os.path.join(base_dir, '..', 'dataset', 'test_sample.csv')
+split_train_path = os.path.join(base_dir, '..', 'dataset', 'test_original.csv')
 
 df = pd.read_csv(train_path)
 print(f"Total rows in train.csv: {len(df)}")

@@ -1,6 +1,6 @@
 {
   "model_name": "Random Forest",
-  "timestamp": "2026-02-15 02:38:43",
+  "timestamp": "2026-02-15 20:27:03",
   "hyperparameters": {
     "n_estimators": 100,
     "random_state": 42
@@ -13,5 +13,15 @@
     "Recall": 0.9376459598318543,
     "F1 Score": 0.9549860260450734,
     "MCC Score": 0.9222007552373926
-  }
+  },
+  "confusion_matrix": [
+    [
+      10994,
+      223
+    ],
+    [
+      534,
+      8030
+    ]
+  ]
 }

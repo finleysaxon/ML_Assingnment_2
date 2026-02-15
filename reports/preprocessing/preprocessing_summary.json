@@ -1,9 +1,9 @@
 {
-  "preprocessing_date": "2026-02-15 02:31:39",
-  "dataset": "test.csv",
+  "preprocessing_date": "2026-02-15 20:26:16",
+  "dataset": "test_original.csv",
   "total_steps": 9,
   "steps": [
-    "1. Loaded dataset from dataset/test.csv",
+    "1. Loaded dataset from dataset/test_original.csv",
     "2. Assessed data quality (missing values, duplicates, dtypes)",
     "3. Dropped unnecessary columns (id, Unnamed: 0)",
     "4. Imputed missing values using median strategy",
